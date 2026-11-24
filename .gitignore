@@ -1,0 +1,42 @@
+# Downloaded data, generated outputs, and local handoff material
+/cyber-security/
+/sources/
+/data/
+/models/
+/runs/
+/lookup/
+/work/
+/handoff/
+
+# Local environments, caches, and logs
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+*.log
+/.vscode/settings.json
+
+# Local credentials and private keys
+.env
+.env.*
+.envrc
+.git-credentials
+.netrc
+_netrc
+.pypirc
+.npmrc
+.aws/
+.ssh/
+.kube/
+credentials.json
+secrets/
+secrets.json
+secrets.toml
+secrets.yaml
+secrets.yml
+id_rsa
+id_ed25519
+*.key
+*.pem
+*.p12
+*.pfx
